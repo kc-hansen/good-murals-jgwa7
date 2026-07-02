@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gm-ink: #0F0F0F;
+  --color-gm-charcoal: #1C1C1C;
+  --color-gm-ash: #2E2E2E;
+  --color-gm-smoke: #6B6B6B;
+  --color-gm-linen: #F4F1EC;
+  --color-gm-cream: #FAFAF8;
+  --color-gm-gold: #C9A84C;
+  --color-gm-gold-dark: #A68A30;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Courier New', monospace;
+}
+
+:root {
+  --gm-ink: #0F0F0F;
+  --gm-charcoal: #1C1C1C;
+  --gm-ash: #2E2E2E;
+  --gm-smoke: #6B6B6B;
+  --gm-linen: #F4F1EC;
+  --gm-cream: #FAFAF8;
+  --gm-gold: #C9A84C;
+  --gm-gold-dark: #A68A30;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--gm-cream);
+  color: var(--gm-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
