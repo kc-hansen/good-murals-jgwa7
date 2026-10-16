@@ -53,8 +53,10 @@ export default function PrivacyPage() {
                 Analytics
               </h2>
               <p>
-                We use Plausible Analytics, a privacy-first analytics service that does not use cookies and does not collect
-                personal data. Plausible collects only anonymized aggregate statistics about page visits.
+                We use privacy-friendly, cookieless analytics (PostHog) to see how the site is used, including anonymous
+                recordings of visits. Anything you type into a form is hidden from those recordings. It doesn&apos;t track you
+                across other websites or build an advertising profile. We may also use Plausible Analytics, which likewise
+                sets no cookies and collects only anonymized aggregate statistics about page visits.
               </p>
             </section>
             <section>
